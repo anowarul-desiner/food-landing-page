@@ -5,9 +5,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: 40px ;
-    margin-top: 20px;
-    margin-right: 10px;
+    margin-left: 60px ;
+    margin-top:50px;
+    margin-right: 60px;
+    padding: 30px 0px;
 }
 
 .Hero h1 {
@@ -60,4 +61,43 @@
     width: 500px;
     height: 600px;
     padding-left: 50px;
+}
+
+.Person {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 60px ;
+    margin-top:50px;
+    margin-right: 60px;
+    padding: 30px 0px;
+    background-image: url(./shapes/7.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding:40px 50px;
+}
+.Person img {
+    width: 400px;
+    height: 600px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.Person h1{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 54px;
+    color: #707070;
+}
+
+.Person p{
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    width: 444px;
+    height: 160px;
+    color: #18191F;
 }
